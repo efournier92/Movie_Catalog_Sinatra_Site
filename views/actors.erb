@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Actors</title>
-  </head>
 
-  <body>
+<head>
+  <title>Actors</title>
+</head>
 
-    <ul>
-      <% @actors.each do |actor| %>
-        <li class="item">
-          <a href = "/actors/<%= actor[0] %>"><%= actor[1] %></a>
-        </li>
-      <% end %>
-    </ul>
+<body>
+  <ul>
+    <% @actors.each do |actor| %>
+      <li class="item">
+        <a href = "/actors/<%= actor[0] %>"><%= actor[1] %></a>
+      </li>
+    <% end %>
+  </ul>
+</body>
 
-
-  </body>
 </html>
