@@ -1,6 +1,6 @@
 #Movie Catalog Sinatra Site
 
-This is a Sinatra web app I built to practice rendering dynamic web pages with information pulled from a relational database. The movie catalog is backed by a PostgreSQL database called `movies`
+This is a Sinatra web app I built to practice rendering dynamic web pages with information pulled from a relational database. The movie catalog is backed by a PostgreSQL database called `movies`.
 
 All code files are covered by feature tests written in RSpec with Capybara.
 
