@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title><%=@movie_info[0]['title']%></title>
+  </head>
+
+  <body>
+    <h2><%=@movie_info[0]['title']%></h2>
+    <ul>
+      <% @movie_info.each do |movie_info| %>
+        <li><%= @movie_info[0]['genre']%></li>
+        <li><%= @movie_info[0]['rating']%></li>
+        <li><%= @movie_info[0]['studio']%></li>
+      <% end %>
+    </ul>
+
+
+  </body>
+</html>
